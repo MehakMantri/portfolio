@@ -640,6 +640,7 @@ header .navbar ul li a:hover {
 /* education section ends */
 
 /* work section starts */
+
 .work {
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
@@ -654,11 +655,17 @@ header .navbar ul li a:hover {
 .work .heading span {
   color: rgb(255, 230, 0);
 }
+#box{
+  display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
 .work .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
+    width:45%;
 }
 .work .box-container .box {
   flex: 1 1 30rem;
