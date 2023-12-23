@@ -665,7 +665,7 @@ flex-wrap: wrap;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
-    width:45%;
+  width:45%;
 }
 .work .box-container .box {
   flex: 1 1 30rem;
