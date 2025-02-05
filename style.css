@@ -333,7 +333,7 @@ header .navbar ul li a:hover {
     margin-top: 12rem;
   }
   .home .image img {
-    margin-top: -12rem;
+    margin-top: -4rem;
   }
   .home .content p {
     font-size: 2.2rem;
@@ -437,6 +437,9 @@ header .navbar ul li a:hover {
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
+  .home .image{
+    margin-top:30px;
+  }
   .about .row .image {
     margin-top: 2rem;
   }
